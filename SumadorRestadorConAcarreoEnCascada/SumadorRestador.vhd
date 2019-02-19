@@ -16,6 +16,7 @@ SIGNAL c : STD_LOGIC_VECTOR (4 DOWNTO 0);
 SIGNAL eb : STD_LOGIC_VECTOR (3 DOWNTO 0);
 
 BEGIN
+
 	c(0) <= cin;
 	cout <= c(4);
 	
@@ -29,4 +30,3 @@ BEGIN
 	cout <= c(4);
 
 END Behavioral;
-

@@ -1,9 +1,6 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn SumadorRestador.prj
--ofn SumadorRestador
--ofmt NGC
+set -tmpdir "C:/Users/Tapia/OneDrive - Instituto Politecnico Nacional/6. Sexto semestre/Arquitectura de computadoras/GitHub/Nexys-4-FPGA/SumadorRestadorConAcarreoEnCascada/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Tapia/OneDrive - Instituto Politecnico Nacional/6. Sexto semestre/Arquitectura de computadoras/GitHub/Nexys-4-FPGA/SumadorRestadorConAcarreoEnCascada/xst"
+run -compileonly yes
 -p xc7a100t-3-csg324
 -top SumadorRestador
 -opt_mode Speed
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn SumadorRestador.prj

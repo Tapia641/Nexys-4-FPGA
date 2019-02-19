@@ -95,17 +95,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1550544958" xil_pn:in_ck="-1450496386790758513" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="798196027229513999" xil_pn:start_ts="1550544947">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1550545972" xil_pn:in_ck="-1450496386790758513" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="798196027229513999" xil_pn:start_ts="1550545563">
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SumadorRestador.lso"/>
       <outfile xil_pn:name="SumadorRestador.ngc"/>
       <outfile xil_pn:name="SumadorRestador.ngr"/>
       <outfile xil_pn:name="SumadorRestador.prj"/>
-      <outfile xil_pn:name="SumadorRestador.stx"/>
-      <outfile xil_pn:name="SumadorRestador.syr"/>
       <outfile xil_pn:name="SumadorRestador.xst"/>
       <outfile xil_pn:name="SumadorRestador_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -117,8 +117,9 @@
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1550544966" xil_pn:in_ck="-1450496386790767259" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2941064429203422333" xil_pn:start_ts="1550544958">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="SumadorRestador.bld"/>
       <outfile xil_pn:name="SumadorRestador.ngd"/>
       <outfile xil_pn:name="SumadorRestador_ngdbuild.xrpt"/>
@@ -129,6 +130,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="SumadorRestador.pcf"/>
       <outfile xil_pn:name="SumadorRestador_map.map"/>
       <outfile xil_pn:name="SumadorRestador_map.mrp"/>
@@ -142,6 +144,7 @@
     <transform xil_pn:end_ts="1550545041" xil_pn:in_ck="3206100282693801855" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1550544994">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="SumadorRestador.ncd"/>
       <outfile xil_pn:name="SumadorRestador.pad"/>
       <outfile xil_pn:name="SumadorRestador.par"/>
@@ -156,6 +159,7 @@
     <transform xil_pn:end_ts="1550545041" xil_pn:in_ck="-1450496386790767390" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1550545021">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="SumadorRestador.twr"/>
       <outfile xil_pn:name="SumadorRestador.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
