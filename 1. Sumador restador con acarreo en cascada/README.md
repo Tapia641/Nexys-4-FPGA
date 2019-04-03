@@ -1,1 +1,2 @@
-![alt text](http://url/to/img.png) 
+
+![1](./1.png?raw=true "Diagrama RTL generado")
